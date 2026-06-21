@@ -1,0 +1,4 @@
+{
+  "item.organdefaults.baseline_organ": "默认器官",
+  "message.organdefaults.bootstrap.applied": "已为 %s 应用默认器官"
+}

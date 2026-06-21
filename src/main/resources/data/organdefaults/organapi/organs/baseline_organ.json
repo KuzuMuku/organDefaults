@@ -1,0 +1,7 @@
+{
+  "item": "organdefaults:baseline_organ",
+  "valid_parts": [],
+  "size": 1,
+  "tooltips": ["Baseline placeholder organ used by organDefaults."],
+  "tags": ["baseline", "default"]
+}

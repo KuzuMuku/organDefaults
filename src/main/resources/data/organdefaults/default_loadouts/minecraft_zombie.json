@@ -1,0 +1,31 @@
+{
+  "priority": 10,
+  "entity_types": ["minecraft:zombie"],
+  "entity_tags": [],
+  "placements": {
+    "organapi:head": {
+      "0": [
+        { "id": "organdefaults:baseline_organ" }
+      ]
+    },
+    "organapi:chest": {
+      "0": [
+        { "id": "organdefaults:baseline_organ" }
+      ]
+    }
+  },
+  "point_adjustments": [
+    {
+      "source": "organdefaults:balance/minecraft_zombie",
+      "point_type": "counter",
+      "point_id": "organdefaults:baseline",
+      "amount": 2
+    },
+    {
+      "source": "organdefaults:balance/minecraft_zombie",
+      "point_type": "attribute",
+      "point_id": "minecraft:max_health",
+      "amount": -4
+    }
+  ]
+}
