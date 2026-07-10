@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:fish_gills",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["Gill tissue specialized for extracting oxygen from water."],
+  "tags": ["default", "gills", "aquatic"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:oxygen_efficiency","amount":5}],"events":[],"executions":[]}]
+}

@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:undead_core",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A necrotic core that animates the dead without living circulation."],
+  "tags": ["default", "core", "undead"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"attribute","attribute":"max_health","amount":4},{"type":"attribute","attribute":"attack_damage","amount":1},{"type":"attribute","attribute":"armor","amount":1}],"events":[],"executions":[]}]
+}

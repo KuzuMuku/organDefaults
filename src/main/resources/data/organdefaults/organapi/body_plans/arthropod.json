@@ -1,0 +1,12 @@
+{
+  "entity_types": ["minecraft:spider", "minecraft:cave_spider", "minecraft:bee", "minecraft:silverfish", "minecraft:endermite"],
+  "parts": {
+    "organapi:head": {"capacity": 1},
+    "organapi:chest": {"capacity": 4},
+    "organapi:abdomen": {"capacity": 2},
+    "organapi:left_arm": {"enabled": false},
+    "organapi:right_arm": {"enabled": false},
+    "organapi:left_leg": {"capacity": 1},
+    "organapi:right_leg": {"capacity": 1}
+  }
+}

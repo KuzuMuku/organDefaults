@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:carapace_shell",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A hard shell or exoskeleton that replaces ordinary ribs."],
+  "tags": ["default", "shell", "defense", "arthropod"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"attribute","attribute":"armor","amount":4},{"type":"attribute","attribute":"armor_toughness","amount":1}],"events":[],"executions":[]}]
+}

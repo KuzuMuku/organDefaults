@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:rotten_spine",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A damaged spine that sends signals slowly and unreliably."],
+  "tags": ["default", "spine", "undead"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:neural_conduction","amount":-1}],"events":[],"executions":[]}]
+}

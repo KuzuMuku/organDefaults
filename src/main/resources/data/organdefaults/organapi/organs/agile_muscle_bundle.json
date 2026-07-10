@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:agile_muscle_bundle",
+  "valid_parts": ["organapi:chest", "organapi:left_arm", "organapi:right_arm", "organapi:left_leg", "organapi:right_leg"],
+  "size": 1,
+  "tooltips": ["Lean muscle fibers optimized for speed and precision."],
+  "tags": ["default", "muscle", "agile"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:muscular_strength","amount":2}],"events":[],"executions":[]}]
+}

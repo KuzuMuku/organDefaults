@@ -1,0 +1,18 @@
+{
+  "item": "organdefaults:dragon_breath_gland",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A volatile gland that lets its bearer exhale a cloud of dragon breath."],
+  "tags": ["default", "dragon", "ender", "breath"],
+  "effects": [
+    {
+      "conditions": [{"type":"static"}],
+      "grants": [
+        {"type":"skill", "skill_name":"organeffect:dragon_breath", "amount":1},
+        {"type":"attribute", "attribute":"attack_damage", "amount":2}
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
+}

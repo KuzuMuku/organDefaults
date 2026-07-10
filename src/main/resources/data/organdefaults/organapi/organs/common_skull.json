@@ -1,0 +1,19 @@
+{
+  "item": "organdefaults:common_skull",
+  "valid_parts": ["organapi:head"],
+  "size": 1,
+  "tooltips": ["A complete skull that protects the head and houses sharper reflexes."],
+  "tags": ["default", "common", "bone", "head"],
+  "effects": [
+    {
+      "conditions": [
+        { "type": "static" }
+      ],
+      "grants": [
+        { "type": "attribute", "attribute": "armor", "amount": 1 }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
+}

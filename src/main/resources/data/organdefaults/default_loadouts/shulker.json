@@ -1,0 +1,13 @@
+{
+  "priority": 20,
+  "entity_types": ["minecraft:shulker"],
+  "entity_tags": [],
+  "placements": {
+    "organapi:chest": {"0":[{"id":"organdefaults:void_core"}],"1":[{"id":"organdefaults:shulker_bolt_gland"}]}
+  },
+  "point_adjustments": [
+    {"source":"organdefaults:balance/shulker","point_key":"attribute:minecraft:max_health","amount":-4},
+    {"source":"organdefaults:balance/shulker","point_key":"attribute:minecraft:movement_speed","amount":-1},
+    {"source":"organdefaults:balance/shulker","point_key":"organ_stat:organeffect:neural_conduction","amount":-2}
+  ]
+}

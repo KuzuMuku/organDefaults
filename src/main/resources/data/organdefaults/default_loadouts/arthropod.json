@@ -1,0 +1,20 @@
+{
+  "priority": 10,
+  "entity_types": ["minecraft:spider", "minecraft:cave_spider"],
+  "entity_tags": [],
+  "placements": {
+    "organapi:head": {"0":[{"id":"organdefaults:keen_brain"}]},
+    "organapi:chest": {"0":[{"id":"organdefaults:carapace_shell"}],"1":[{"id":"organdefaults:agile_muscle_bundle"}]},
+    "organapi:abdomen": {"0":[{"id":"organdefaults:toxic_liver"}],"1":[{"id":"organdefaults:predator_digestive_tract"}]},
+    "organapi:left_leg": {"0":[{"id":"organdefaults:agile_muscle_bundle"}]},
+    "organapi:right_leg": {"0":[{"id":"organdefaults:agile_muscle_bundle"}]}
+  },
+  "point_adjustments": [
+    {"source":"organdefaults:balance/arthropod","point_key":"organ_stat:organeffect:neural_conduction","amount":-3},
+    {"source":"organdefaults:balance/arthropod","point_key":"organ_stat:organeffect:immune_efficiency","amount":-2},
+    {"source":"organdefaults:balance/arthropod","point_key":"organ_stat:organeffect:digestive_absorption","amount":-2},
+    {"source":"organdefaults:balance/arthropod","point_key":"organ_stat:organeffect:muscular_strength","amount":-7},
+    {"source":"organdefaults:balance/arthropod","point_key":"attribute:minecraft:armor","amount":-4},
+    {"source":"organdefaults:balance/arthropod","point_key":"attribute:minecraft:armor_toughness","amount":-1}
+  ]
+}

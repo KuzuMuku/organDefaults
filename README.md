@@ -11,8 +11,8 @@ When `organAPI` first resolves an entity's organ holder on the server:
 
 1. `organDefaults` finds all matching loadouts and applies them from low priority to high priority.
 2. It rolls the configured organ candidates and installs the selected organ items into the configured body-part slots.
-3. It applies the configured point adjustments through `OepPointApi`.
-4. It recomputes OEP effects.
+3. It applies the configured point adjustments through `OrganEffectsPointApi`.
+4. It recomputes OrganEffects effects.
 
 This means developers can give mobs a default organ setup without requiring manual installation in gameplay.
 
@@ -132,7 +132,7 @@ Each `point_adjustments` entry uses this format:
 
 | Field | Type | Required | Meaning |
 | --- | --- | --- | --- |
-| `source` | string | no | Explicit OEP source tag used for these points. |
+| `source` | string | no | Explicit OrganEffects source tag used for these points. |
 | `point_type` | string | conditionally | Point type prefix, such as `attribute` or `counter`. |
 | `point_id` | string | conditionally | Point id suffix, such as `minecraft:max_health`. |
 | `point_key` | string | conditionally | Full point key, such as `attribute:minecraft:max_health`. |

@@ -1,0 +1,17 @@
+{
+  "priority": 20,
+  "entity_types": ["minecraft:endermite"],
+  "entity_tags": [],
+  "placements": {
+    "organapi:chest": {
+      "0":[{"id":"organdefaults:void_core"}],
+      "1":[{"id":"organdefaults:agile_muscle_bundle"}]
+    }
+  },
+  "point_adjustments": [
+    {"source":"organdefaults:balance/tiny_endermite","point_key":"attribute:minecraft:max_health","amount":-4},
+    {"source":"organdefaults:balance/tiny_endermite","point_key":"attribute:minecraft:movement_speed","amount":-1},
+    {"source":"organdefaults:balance/tiny_endermite","point_key":"organ_stat:organeffect:neural_conduction","amount":-2},
+    {"source":"organdefaults:balance/tiny_endermite","point_key":"organ_stat:organeffect:muscular_strength","amount":-2}
+  ]
+}

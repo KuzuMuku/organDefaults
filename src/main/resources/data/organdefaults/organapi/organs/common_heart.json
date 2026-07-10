@@ -1,0 +1,19 @@
+{
+  "item": "organdefaults:common_heart",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A steady heart that improves circulation and recovery."],
+  "tags": ["default", "common", "heart"],
+  "effects": [
+    {
+      "conditions": [
+        { "type": "static" }
+      ],
+      "grants": [
+        { "type": "organ_stat", "id": "organeffect:cardiac_output", "amount": 2 }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
+}

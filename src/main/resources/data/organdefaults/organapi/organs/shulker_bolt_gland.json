@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:shulker_bolt_gland",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A warped gland that lets its bearer spit out a shulker-like tracking burst."],
+  "tags": ["default", "ender", "shulker", "projectile"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"skill","skill_name":"organeffect:shulker_bolt","amount":1}],"events":[],"executions":[]}]
+}

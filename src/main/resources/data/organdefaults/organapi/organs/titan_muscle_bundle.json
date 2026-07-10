@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:titan_muscle_bundle",
+  "valid_parts": ["organapi:chest", "organapi:left_arm", "organapi:right_arm", "organapi:left_leg", "organapi:right_leg"],
+  "size": 1,
+  "tooltips": ["Massive muscle tissue built for siege beasts and elite shock troops."],
+  "tags": ["default", "muscle", "titan"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:muscular_strength","amount":6}],"events":[],"executions":[]}]
+}

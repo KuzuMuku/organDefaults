@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:aquatic_lungs",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["Mammalian lungs adapted for long dives and rapid resurfacing."],
+  "tags": ["default", "lung", "aquatic"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:oxygen_efficiency","amount":4}],"events":[],"executions":[]}]
+}

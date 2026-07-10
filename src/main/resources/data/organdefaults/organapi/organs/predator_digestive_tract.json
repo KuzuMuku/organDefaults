@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:predator_digestive_tract",
+  "valid_parts": ["organapi:abdomen"],
+  "size": 1,
+  "tooltips": ["A compact digestive tract tuned for dense, protein-rich meals."],
+  "tags": ["default", "digestive", "predator"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:digestive_absorption","amount":2},{"type":"organ_stat","id":"organeffect:muscular_strength","amount":1}],"events":[],"executions":[]}]
+}

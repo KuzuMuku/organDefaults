@@ -1,0 +1,20 @@
+{
+  "item": "organdefaults:rib_cage",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A strong rib cage that shields the torso from damage."],
+  "tags": ["default", "common", "bone", "defense"],
+  "effects": [
+    {
+      "conditions": [
+        { "type": "static" }
+      ],
+      "grants": [
+        { "type": "attribute", "attribute": "armor", "amount": 3 },
+        { "type": "attribute", "attribute": "armor_toughness", "amount": 1 }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "priority": 10,
+  "entity_types": ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:drowned", "minecraft:zombified_piglin"],
+  "entity_tags": [],
+  "placements": {
+    "organapi:head": {"0":[{"id":"organdefaults:common_skull"}],"1":[{"id":"organdefaults:rotten_brain"}]},
+    "organapi:chest": {"0":[{"id":"organdefaults:rotten_heart"}],"1":[{"id":"organdefaults:rotten_lungs"}],"2":[{"id":"organdefaults:rib_cage"}],"3":[{"id":"organdefaults:rotten_spine"}]},
+    "organapi:abdomen": {"0":[{"id":"organdefaults:rotten_liver"}],"1":[{"id":"organdefaults:rotten_kidney_pair"}]},
+    "organapi:left_arm": {"0":[{"id":"organdefaults:rotten_muscle_bundle"}]},
+    "organapi:right_arm": {"0":[{"id":"organdefaults:rotten_muscle_bundle"}]},
+    "organapi:left_leg": {"0":[{"id":"organdefaults:rotten_muscle_bundle"}]},
+    "organapi:right_leg": {"0":[{"id":"organdefaults:rotten_muscle_bundle"}]}
+  },
+  "point_adjustments": [
+    {"source":"organdefaults:balance/zombie_family","point_key":"organ_stat:organeffect:cardiac_output","amount":-1},
+    {"source":"organdefaults:balance/zombie_family","point_key":"organ_stat:organeffect:oxygen_efficiency","amount":-1},
+    {"source":"organdefaults:balance/zombie_family","point_key":"organ_stat:organeffect:muscular_strength","amount":-8},
+    {"source":"organdefaults:balance/zombie_family","point_key":"attribute:minecraft:armor","amount":-4},
+    {"source":"organdefaults:balance/zombie_family","point_key":"attribute:minecraft:armor_toughness","amount":-1}
+  ]
+}

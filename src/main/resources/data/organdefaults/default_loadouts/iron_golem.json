@@ -1,0 +1,15 @@
+{
+  "priority": 20,
+  "entity_types": ["minecraft:iron_golem"],
+  "entity_tags": [],
+  "placements": {
+    "organapi:chest": {"0":[{"id":"organdefaults:golem_core"}],"1":[{"id":"organdefaults:iron_plating"}]}
+  },
+  "point_adjustments": [
+    {"source":"organdefaults:balance/iron_golem","point_key":"attribute:minecraft:max_health","amount":-14},
+    {"source":"organdefaults:balance/iron_golem","point_key":"attribute:minecraft:attack_damage","amount":-4},
+    {"source":"organdefaults:balance/iron_golem","point_key":"attribute:minecraft:movement_speed","amount":-1},
+    {"source":"organdefaults:balance/iron_golem","point_key":"attribute:minecraft:armor","amount":-15},
+    {"source":"organdefaults:balance/iron_golem","point_key":"attribute:minecraft:armor_toughness","amount":-5}
+  ]
+}

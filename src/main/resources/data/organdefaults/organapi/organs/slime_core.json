@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:slime_core",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A gelatinous core that supports amorphous bodies."],
+  "tags": ["default", "core", "slime"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"attribute","attribute":"max_health","amount":4},{"type":"attribute","attribute":"attack_damage","amount":1},{"type":"attribute","attribute":"movement_speed","amount":1}],"events":[],"executions":[]}]
+}

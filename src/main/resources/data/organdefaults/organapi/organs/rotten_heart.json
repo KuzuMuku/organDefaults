@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:rotten_heart",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A decayed heart that barely keeps undead flesh moving."],
+  "tags": ["default", "heart", "undead"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:cardiac_output","amount":1}],"events":[],"executions":[]}]
+}

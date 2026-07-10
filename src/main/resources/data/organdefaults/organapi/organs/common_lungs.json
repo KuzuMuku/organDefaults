@@ -1,0 +1,19 @@
+{
+  "item": "organdefaults:common_lungs",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A healthy pair of lungs that improves oxygen handling."],
+  "tags": ["default", "common", "lung"],
+  "effects": [
+    {
+      "conditions": [
+        { "type": "static" }
+      ],
+      "grants": [
+        { "type": "organ_stat", "id": "organeffect:oxygen_efficiency", "amount": 3 }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
+}

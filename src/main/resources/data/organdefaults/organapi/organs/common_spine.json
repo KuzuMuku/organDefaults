@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:common_spine",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A healthy spine that carries signals cleanly through the body."],
+  "tags": ["default", "spine", "common"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:neural_conduction","amount":2}],"events":[],"executions":[]}]
+}

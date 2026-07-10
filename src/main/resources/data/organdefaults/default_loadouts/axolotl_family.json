@@ -1,0 +1,18 @@
+{
+  "priority": 10,
+  "entity_types": ["minecraft:axolotl", "minecraft:tadpole"],
+  "entity_tags": [],
+  "placements": {
+    "organapi:head": {"0":[{"id":"organdefaults:common_brain"}]},
+    "organapi:chest": {"0":[{"id":"organdefaults:common_heart"}],"1":[{"id":"organdefaults:fish_gills"}],"2":[{"id":"organdefaults:common_spine"}],"3":[{"id":"organdefaults:agile_muscle_bundle"}]},
+    "organapi:abdomen": {"0":[{"id":"organdefaults:common_liver"}],"1":[{"id":"organdefaults:common_digestive_tract"}]}
+  },
+  "point_adjustments": [
+    {"source":"organdefaults:balance/axolotl_family","point_key":"organ_stat:organeffect:cardiac_output","amount":-2},
+    {"source":"organdefaults:balance/axolotl_family","point_key":"organ_stat:organeffect:oxygen_efficiency","amount":-5},
+    {"source":"organdefaults:balance/axolotl_family","point_key":"organ_stat:organeffect:neural_conduction","amount":-4},
+    {"source":"organdefaults:balance/axolotl_family","point_key":"organ_stat:organeffect:immune_efficiency","amount":-1},
+    {"source":"organdefaults:balance/axolotl_family","point_key":"organ_stat:organeffect:digestive_absorption","amount":-2},
+    {"source":"organdefaults:balance/axolotl_family","point_key":"organ_stat:organeffect:muscular_strength","amount":-2}
+  ]
+}

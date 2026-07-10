@@ -1,0 +1,20 @@
+{
+  "item": "organdefaults:common_liver",
+  "valid_parts": ["organapi:abdomen"],
+  "size": 1,
+  "tooltips": ["A reliable liver that speeds up detox and supports immunity."],
+  "tags": ["default", "common", "liver"],
+  "effects": [
+    {
+      "conditions": [
+        { "type": "static" }
+      ],
+      "grants": [
+        { "type": "organ_stat", "id": "organeffect:liver_detox_efficiency", "amount": 2 },
+        { "type": "organ_stat", "id": "organeffect:immune_efficiency", "amount": 1 }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
+}

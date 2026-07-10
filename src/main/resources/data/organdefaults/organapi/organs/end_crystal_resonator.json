@@ -1,0 +1,18 @@
+{
+  "item": "organdefaults:end_crystal_resonator",
+  "valid_parts": ["organapi:chest"],
+  "size": 1,
+  "tooltips": ["A resonant organ that can draw energy out of nearby end crystals."],
+  "tags": ["default", "dragon", "ender", "crystal"],
+  "effects": [
+    {
+      "conditions": [{"type":"static"}],
+      "grants": [
+        {"type":"organ_stat", "id":"organeffect:end_crystal_resonance", "amount":1},
+        {"type":"attribute", "attribute":"max_health", "amount":4}
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
+}

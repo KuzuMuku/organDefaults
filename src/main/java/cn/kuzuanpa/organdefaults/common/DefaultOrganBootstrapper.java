@@ -4,7 +4,7 @@ import cn.kuzuanpa.organapi.api.body.ResolvedBodyPlan;
 import cn.kuzuanpa.organapi.api.extension.OrganHolderBootstrapper;
 import cn.kuzuanpa.organapi.common.body.BodyPlanResolver;
 import cn.kuzuanpa.organapi.common.capability.IOrganHolder;
-import cn.kuzuanpa.organeffectprocessor.api.OepPointApi;
+import cn.kuzuanpa.organeffect.api.OrganEffectsPointApi;
 import com.mojang.logging.LogUtils;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -53,7 +53,7 @@ public class DefaultOrganBootstrapper implements OrganHolderBootstrapper {
                 applyPointAdjustments(living, loadout);
             }
             markInitialized(entity);
-            OepPointApi.recompute(living);
+            OrganEffectsPointApi.recompute(living);
         } finally {
             INITIALIZING.remove(entity.getUUID());
         }
@@ -120,7 +120,7 @@ public class DefaultOrganBootstrapper implements OrganHolderBootstrapper {
             grouped.computeIfAbsent(source, key -> new LinkedHashMap<>()).put(adjustment.pointKey(), adjustment.amount());
         }
         for (Map.Entry<String, Map<String, Long>> entry : grouped.entrySet()) {
-            OepPointApi.replaceSourcePoints(entity, entry.getKey(), entry.getValue());
+            OrganEffectsPointApi.replaceSourcePoints(entity, entry.getKey(), entry.getValue());
         }
     }
 

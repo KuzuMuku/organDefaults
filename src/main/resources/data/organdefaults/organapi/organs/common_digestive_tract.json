@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:common_digestive_tract",
+  "valid_parts": ["organapi:abdomen"],
+  "size": 1,
+  "tooltips": ["A standard digestive tract for balanced food processing."],
+  "tags": ["default", "digestive", "common"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:digestive_absorption","amount":2}],"events":[],"executions":[]}]
+}

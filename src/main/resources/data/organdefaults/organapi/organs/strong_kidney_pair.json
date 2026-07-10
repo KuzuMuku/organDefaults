@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:strong_kidney_pair",
+  "valid_parts": ["organapi:abdomen"],
+  "size": 1,
+  "tooltips": ["A dense kidney pair with unusually stable filtration."],
+  "tags": ["default", "kidney", "strong"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:kidney_filtration_efficiency","amount":3},{"type":"organ_stat","id":"organeffect:immune_efficiency","amount":1}],"events":[],"executions":[]}]
+}

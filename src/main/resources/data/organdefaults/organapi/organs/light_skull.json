@@ -1,0 +1,8 @@
+{
+  "item": "organdefaults:light_skull",
+  "valid_parts": ["organapi:head"],
+  "size": 1,
+  "tooltips": ["A light skull that sacrifices protection to keep the head mobile."],
+  "tags": ["default", "bone", "head", "light"],
+  "effects": [{"conditions":[{"type":"static"}],"grants":[],"events":[],"executions":[]}]
+}
