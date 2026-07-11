@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["Collapsed lungs that still move a little stale air."],
   "tags": ["default", "lung", "undead"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:oxygen_efficiency","amount":1}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:oxygen_efficiency","amount":1}],"events":[],"executions":[]}]
 }

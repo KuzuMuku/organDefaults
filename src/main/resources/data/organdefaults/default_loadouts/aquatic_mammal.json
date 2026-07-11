@@ -8,12 +8,12 @@
     "organapi:abdomen": {"0":[{"id":"organdefaults:common_liver"}],"1":[{"id":"organdefaults:strong_kidney_pair"}],"2":[{"id":"organdefaults:predator_digestive_tract"}]}
   },
   "point_adjustments": [
-    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffect:cardiac_output","amount":-2},
-    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffect:oxygen_efficiency","amount":-4},
-    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffect:neural_conduction","amount":-6},
-    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffect:immune_efficiency","amount":-2},
-    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffect:digestive_absorption","amount":-2},
-    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffect:muscular_strength","amount":-3},
+    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffects:cardiac_output","amount":-2},
+    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffects:oxygen_efficiency","amount":-4},
+    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffects:neural_conduction","amount":-6},
+    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffects:immune_efficiency","amount":-2},
+    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffects:digestive_absorption","amount":-2},
+    {"source":"organdefaults:balance/aquatic_mammal","point_key":"organ_stat:organeffects:muscular_strength","amount":-3},
     {"source":"organdefaults:balance/aquatic_mammal","point_key":"attribute:minecraft:armor","amount":-4},
     {"source":"organdefaults:balance/aquatic_mammal","point_key":"attribute:minecraft:armor_toughness","amount":-1}
   ]

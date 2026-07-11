@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["A decayed heart that barely keeps undead flesh moving."],
   "tags": ["default", "heart", "undead"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:cardiac_output","amount":1}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:cardiac_output","amount":1}],"events":[],"executions":[]}]
 }

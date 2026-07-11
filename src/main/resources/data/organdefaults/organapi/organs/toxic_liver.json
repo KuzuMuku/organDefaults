@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["A liver adapted to handling venom and dangerous compounds."],
   "tags": ["default", "liver", "toxic"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:liver_detox_efficiency","amount":3},{"type":"organ_stat","id":"organeffect:immune_efficiency","amount":2}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:liver_detox_efficiency","amount":3},{"type":"organ_stat","id":"organeffects:immune_efficiency","amount":2}],"events":[],"executions":[]}]
 }

@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["Mammalian lungs adapted for long dives and rapid resurfacing."],
   "tags": ["default", "lung", "aquatic"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:oxygen_efficiency","amount":4}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:oxygen_efficiency","amount":4}],"events":[],"executions":[]}]
 }

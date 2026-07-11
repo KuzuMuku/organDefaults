@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["Lean muscle fibers optimized for speed and precision."],
   "tags": ["default", "muscle", "agile"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:muscular_strength","amount":2}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:muscular_strength","amount":2}],"events":[],"executions":[]}]
 }

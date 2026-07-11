@@ -10,9 +10,9 @@
     "organapi:right_leg": {"0":[{"id":"organdefaults:rotten_muscle_bundle"}]}
   },
   "point_adjustments": [
-    {"source":"organdefaults:balance/undead_quadruped","point_key":"organ_stat:organeffect:cardiac_output","amount":-1},
-    {"source":"organdefaults:balance/undead_quadruped","point_key":"organ_stat:organeffect:oxygen_efficiency","amount":-1},
-    {"source":"organdefaults:balance/undead_quadruped","point_key":"organ_stat:organeffect:muscular_strength","amount":-6},
+    {"source":"organdefaults:balance/undead_quadruped","point_key":"organ_stat:organeffects:cardiac_output","amount":-1},
+    {"source":"organdefaults:balance/undead_quadruped","point_key":"organ_stat:organeffects:oxygen_efficiency","amount":-1},
+    {"source":"organdefaults:balance/undead_quadruped","point_key":"organ_stat:organeffects:muscular_strength","amount":-6},
     {"source":"organdefaults:balance/undead_quadruped","point_key":"attribute:minecraft:armor","amount":-4},
     {"source":"organdefaults:balance/undead_quadruped","point_key":"attribute:minecraft:armor_toughness","amount":-1}
   ]

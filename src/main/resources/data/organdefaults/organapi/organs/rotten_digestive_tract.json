@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["A decayed gut that turns food into very little useful energy."],
   "tags": ["default", "digestive", "undead"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:digestive_absorption","amount":-1}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:digestive_absorption","amount":-1}],"events":[],"executions":[]}]
 }

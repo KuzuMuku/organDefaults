@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["A focused lens organ that charges and releases a guardian-style beam."],
   "tags": ["default", "guardian", "laser", "projectile"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"skill","skill_name":"organeffect:guardian_beam","amount":1}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"skill","skill_name":"organeffects:guardian_beam","amount":1}],"events":[],"executions":[]}]
 }

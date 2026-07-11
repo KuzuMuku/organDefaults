@@ -10,8 +10,8 @@
     {"source":"organdefaults:balance/creeper_family","point_key":"attribute:minecraft:max_health","amount":-2},
     {"source":"organdefaults:balance/creeper_family","point_key":"attribute:minecraft:attack_damage","amount":-2},
     {"source":"organdefaults:balance/creeper_family","point_key":"attribute:minecraft:movement_speed","amount":-1},
-    {"source":"organdefaults:balance/creeper_family","point_key":"organ_stat:organeffect:neural_conduction","amount":-5},
-    {"source":"organdefaults:balance/creeper_family","point_key":"organ_stat:organeffect:muscular_strength","amount":-2},
+    {"source":"organdefaults:balance/creeper_family","point_key":"organ_stat:organeffects:neural_conduction","amount":-5},
+    {"source":"organdefaults:balance/creeper_family","point_key":"organ_stat:organeffects:muscular_strength","amount":-2},
     {"source":"organdefaults:balance/creeper_family","point_key":"attribute:minecraft:armor","amount":-3},
     {"source":"organdefaults:balance/creeper_family","point_key":"attribute:minecraft:armor_toughness","amount":-1}
   ]

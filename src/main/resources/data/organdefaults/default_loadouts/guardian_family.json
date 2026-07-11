@@ -8,11 +8,11 @@
     "organapi:abdomen": {"0":[{"id":"organdefaults:predator_digestive_tract"}]}
   },
   "point_adjustments": [
-    {"source":"organdefaults:balance/guardian_family","point_key":"organ_stat:organeffect:cardiac_output","amount":-4},
-    {"source":"organdefaults:balance/guardian_family","point_key":"organ_stat:organeffect:oxygen_efficiency","amount":-5},
-    {"source":"organdefaults:balance/guardian_family","point_key":"organ_stat:organeffect:neural_conduction","amount":-2},
-    {"source":"organdefaults:balance/guardian_family","point_key":"organ_stat:organeffect:digestive_absorption","amount":-2},
-    {"source":"organdefaults:balance/guardian_family","point_key":"organ_stat:organeffect:muscular_strength","amount":-7},
+    {"source":"organdefaults:balance/guardian_family","point_key":"organ_stat:organeffects:cardiac_output","amount":-4},
+    {"source":"organdefaults:balance/guardian_family","point_key":"organ_stat:organeffects:oxygen_efficiency","amount":-5},
+    {"source":"organdefaults:balance/guardian_family","point_key":"organ_stat:organeffects:neural_conduction","amount":-2},
+    {"source":"organdefaults:balance/guardian_family","point_key":"organ_stat:organeffects:digestive_absorption","amount":-2},
+    {"source":"organdefaults:balance/guardian_family","point_key":"organ_stat:organeffects:muscular_strength","amount":-7},
     {"source":"organdefaults:balance/guardian_family","point_key":"attribute:minecraft:armor","amount":-4},
     {"source":"organdefaults:balance/guardian_family","point_key":"attribute:minecraft:armor_toughness","amount":-1}
   ]

@@ -10,7 +10,7 @@
         { "type": "static" }
       ],
       "grants": [
-        { "type": "organ_stat", "id": "organeffect:muscular_strength", "amount": 2 }
+        { "type": "organ_stat", "id": "organeffects:muscular_strength", "amount": 2 }
       ],
       "events": [],
       "executions": []

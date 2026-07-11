@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["A rotten kidney pair that struggles to process toxins."],
   "tags": ["default", "kidney", "undead"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:kidney_filtration_efficiency","amount":-1},{"type":"organ_stat","id":"organeffect:immune_efficiency","amount":-1}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:kidney_filtration_efficiency","amount":-1},{"type":"organ_stat","id":"organeffects:immune_efficiency","amount":-1}],"events":[],"executions":[]}]
 }

@@ -10,7 +10,7 @@
         { "type": "static" }
       ],
       "grants": [
-        { "type": "organ_stat", "id": "organeffect:oxygen_efficiency", "amount": 3 }
+        { "type": "organ_stat", "id": "organeffects:oxygen_efficiency", "amount": 3 }
       ],
       "events": [],
       "executions": []

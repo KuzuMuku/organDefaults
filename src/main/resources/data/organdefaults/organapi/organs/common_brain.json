@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["A standard brain that supports stable reflexes and coordination."],
   "tags": ["default", "brain", "common"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:neural_conduction","amount":2}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:neural_conduction","amount":2}],"events":[],"executions":[]}]
 }

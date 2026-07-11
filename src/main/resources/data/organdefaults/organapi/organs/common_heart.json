@@ -10,7 +10,7 @@
         { "type": "static" }
       ],
       "grants": [
-        { "type": "organ_stat", "id": "organeffect:cardiac_output", "amount": 2 }
+        { "type": "organ_stat", "id": "organeffects:cardiac_output", "amount": 2 }
       ],
       "events": [],
       "executions": []

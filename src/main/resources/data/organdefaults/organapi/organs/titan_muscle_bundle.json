@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["Massive muscle tissue built for siege beasts and elite shock troops."],
   "tags": ["default", "muscle", "titan"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:muscular_strength","amount":6}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:muscular_strength","amount":6}],"events":[],"executions":[]}]
 }

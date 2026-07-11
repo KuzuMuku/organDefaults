@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["A failing liver that barely filters anything."],
   "tags": ["default", "liver", "undead"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:liver_detox_efficiency","amount":-1},{"type":"organ_stat","id":"organeffect:immune_efficiency","amount":-1}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:liver_detox_efficiency","amount":-1},{"type":"organ_stat","id":"organeffects:immune_efficiency","amount":-1}],"events":[],"executions":[]}]
 }

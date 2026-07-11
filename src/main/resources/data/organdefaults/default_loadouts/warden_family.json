@@ -9,10 +9,10 @@
     "organapi:right_leg": {"0":[{"id":"organdefaults:strong_muscle_bundle"}]}
   },
   "point_adjustments": [
-    {"source":"organdefaults:balance/warden_family","point_key":"organ_stat:organeffect:cardiac_output","amount":-4},
-    {"source":"organdefaults:balance/warden_family","point_key":"organ_stat:organeffect:neural_conduction","amount":-3},
-    {"source":"organdefaults:balance/warden_family","point_key":"organ_stat:organeffect:immune_efficiency","amount":-2},
-    {"source":"organdefaults:balance/warden_family","point_key":"organ_stat:organeffect:muscular_strength","amount":-12},
+    {"source":"organdefaults:balance/warden_family","point_key":"organ_stat:organeffects:cardiac_output","amount":-4},
+    {"source":"organdefaults:balance/warden_family","point_key":"organ_stat:organeffects:neural_conduction","amount":-3},
+    {"source":"organdefaults:balance/warden_family","point_key":"organ_stat:organeffects:immune_efficiency","amount":-2},
+    {"source":"organdefaults:balance/warden_family","point_key":"organ_stat:organeffects:muscular_strength","amount":-12},
     {"source":"organdefaults:balance/warden_family","point_key":"attribute:minecraft:armor","amount":-5},
     {"source":"organdefaults:balance/warden_family","point_key":"attribute:minecraft:armor_toughness","amount":-2}
   ]

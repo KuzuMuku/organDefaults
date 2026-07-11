@@ -8,7 +8,7 @@
     {
       "conditions": [{"type":"static"}],
       "grants": [
-        {"type":"skill", "skill_name":"organeffect:dragon_breath", "amount":1},
+        {"type":"skill", "skill_name":"organeffects:dragon_breath", "amount":1},
         {"type":"attribute", "attribute":"attack_damage", "amount":2}
       ],
       "events": [],

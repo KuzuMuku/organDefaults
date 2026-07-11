@@ -9,7 +9,7 @@
     }
   },
   "point_adjustments": [
-    {"source":"organdefaults:balance/tiny_arthropod","point_key":"organ_stat:organeffect:muscular_strength","amount":-2},
+    {"source":"organdefaults:balance/tiny_arthropod","point_key":"organ_stat:organeffects:muscular_strength","amount":-2},
     {"source":"organdefaults:balance/tiny_arthropod","point_key":"attribute:minecraft:armor","amount":-4},
     {"source":"organdefaults:balance/tiny_arthropod","point_key":"attribute:minecraft:armor_toughness","amount":-1}
   ]

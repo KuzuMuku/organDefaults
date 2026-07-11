@@ -33,7 +33,7 @@ ordering="AFTER"
 side="BOTH"
 
 [[dependencies.organdefaults]]
-modId="organeffect"
+modId="organeffects"
 mandatory=true
 versionRange="[1.0,)"
 ordering="AFTER"

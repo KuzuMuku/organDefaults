@@ -8,6 +8,6 @@
   "point_adjustments": [
     {"source":"organdefaults:balance/blaze_family","point_key":"attribute:minecraft:attack_damage","amount":-2},
     {"source":"organdefaults:balance/blaze_family","point_key":"attribute:minecraft:movement_speed","amount":-1},
-    {"source":"organdefaults:balance/blaze_family","point_key":"organ_stat:organeffect:oxygen_efficiency","amount":-2}
+    {"source":"organdefaults:balance/blaze_family","point_key":"organ_stat:organeffects:oxygen_efficiency","amount":-2}
   ]
 }

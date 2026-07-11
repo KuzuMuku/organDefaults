@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["A large heart built for tougher creatures."],
   "tags": ["default", "heart", "strong"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:cardiac_output","amount":4}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:cardiac_output","amount":4}],"events":[],"executions":[]}]
 }

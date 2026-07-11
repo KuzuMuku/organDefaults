@@ -4,5 +4,5 @@
   "size": 1,
   "tooltips": ["A broad gut tuned for extracting value from plant matter."],
   "tags": ["default", "digestive", "herbivore"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffect:digestive_absorption","amount":3}],"events":[],"executions":[]}]
+  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:digestive_absorption","amount":3}],"events":[],"executions":[]}]
 }

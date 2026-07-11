@@ -60,7 +60,7 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     implementation name: 'organapi', version: '1.0.0-dev'
-    implementation name: 'organeffect', version: '1.0.0-dev'
+    implementation name: 'organeffects', version: '1.0.0-dev'
     
 	compileOnly fg.deobf("dev.emi:emi-forge:1.1.24+1.20.1:api")
 	runtimeOnly fg.deobf("dev.emi:emi-forge:1.1.24+1.20.1") 

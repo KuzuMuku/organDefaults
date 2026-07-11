@@ -8,7 +8,7 @@
     {
       "conditions": [{"type":"static"}],
       "grants": [
-        {"type":"organ_stat", "id":"organeffect:end_crystal_resonance", "amount":1},
+        {"type":"organ_stat", "id":"organeffects:end_crystal_resonance", "amount":1},
         {"type":"attribute", "attribute":"max_health", "amount":4}
       ],
       "events": [],

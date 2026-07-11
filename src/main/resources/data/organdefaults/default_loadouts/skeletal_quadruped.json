@@ -11,7 +11,7 @@
   "point_adjustments": [
     {"source":"organdefaults:balance/skeletal_quadruped","point_key":"attribute:minecraft:max_health","amount":-4},
     {"source":"organdefaults:balance/skeletal_quadruped","point_key":"attribute:minecraft:attack_damage","amount":-1},
-    {"source":"organdefaults:balance/skeletal_quadruped","point_key":"organ_stat:organeffect:muscular_strength","amount":-6},
+    {"source":"organdefaults:balance/skeletal_quadruped","point_key":"organ_stat:organeffects:muscular_strength","amount":-6},
     {"source":"organdefaults:balance/skeletal_quadruped","point_key":"attribute:minecraft:armor","amount":-6},
     {"source":"organdefaults:balance/skeletal_quadruped","point_key":"attribute:minecraft:armor_toughness","amount":-2}
   ]

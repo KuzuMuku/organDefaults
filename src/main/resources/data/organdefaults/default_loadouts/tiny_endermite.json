@@ -11,7 +11,7 @@
   "point_adjustments": [
     {"source":"organdefaults:balance/tiny_endermite","point_key":"attribute:minecraft:max_health","amount":-4},
     {"source":"organdefaults:balance/tiny_endermite","point_key":"attribute:minecraft:movement_speed","amount":-1},
-    {"source":"organdefaults:balance/tiny_endermite","point_key":"organ_stat:organeffect:neural_conduction","amount":-2},
-    {"source":"organdefaults:balance/tiny_endermite","point_key":"organ_stat:organeffect:muscular_strength","amount":-2}
+    {"source":"organdefaults:balance/tiny_endermite","point_key":"organ_stat:organeffects:neural_conduction","amount":-2},
+    {"source":"organdefaults:balance/tiny_endermite","point_key":"organ_stat:organeffects:muscular_strength","amount":-2}
   ]
 }
