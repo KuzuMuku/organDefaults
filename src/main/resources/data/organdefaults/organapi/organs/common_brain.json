@@ -1,8 +1,33 @@
 {
   "item": "organdefaults:common_brain",
-  "valid_parts": ["organapi:head"],
+  "valid_parts": [
+    "organapi:head"
+  ],
   "size": 1,
-  "tooltips": ["A standard brain that supports stable reflexes and coordination."],
-  "tags": ["default", "brain", "common"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:neural_conduction","amount":2}],"events":[],"executions":[]}]
+  "tooltips": [
+    "§6头§r §7无0§r §9侦测辅助§r §7低§r"
+  ],
+  "tags": [
+    "default",
+    "brain",
+    "common"
+  ],
+  "effects": [
+    {
+      "conditions": [
+        {
+          "type": "static"
+        }
+      ],
+      "grants": [
+        {
+          "type": "organ_stat",
+          "id": "organeffects:neural_conduction",
+          "amount": 2
+        }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
 }

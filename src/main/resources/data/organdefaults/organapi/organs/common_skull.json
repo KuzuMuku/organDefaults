@@ -1,16 +1,31 @@
 {
   "item": "organdefaults:common_skull",
-  "valid_parts": ["organapi:head"],
+  "valid_parts": [
+    "organapi:head"
+  ],
   "size": 1,
-  "tooltips": ["A complete skull that protects the head and houses sharper reflexes."],
-  "tags": ["default", "common", "bone", "head"],
+  "tooltips": [
+    "§6头§r §7无0§r §9生存增益§r §6中§r"
+  ],
+  "tags": [
+    "default",
+    "common",
+    "bone",
+    "head"
+  ],
   "effects": [
     {
       "conditions": [
-        { "type": "static" }
+        {
+          "type": "static"
+        }
       ],
       "grants": [
-        { "type": "attribute", "attribute": "armor", "amount": 1 }
+        {
+          "type": "attribute",
+          "attribute": "armor",
+          "amount": 1
+        }
       ],
       "events": [],
       "executions": []

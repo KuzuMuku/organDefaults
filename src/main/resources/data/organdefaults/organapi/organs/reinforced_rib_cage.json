@@ -1,8 +1,39 @@
 {
   "item": "organdefaults:reinforced_rib_cage",
-  "valid_parts": ["organapi:chest"],
+  "valid_parts": [
+    "organapi:chest"
+  ],
   "size": 1,
-  "tooltips": ["Heavy ribs and sternum built for damage resistance."],
-  "tags": ["default", "bone", "defense", "strong"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"attribute","attribute":"armor","amount":5},{"type":"attribute","attribute":"armor_toughness","amount":2}],"events":[],"executions":[]}]
+  "tooltips": [
+    "§6胸§r §7无0§r §9生存增益§r §e高§r"
+  ],
+  "tags": [
+    "default",
+    "bone",
+    "defense",
+    "strong"
+  ],
+  "effects": [
+    {
+      "conditions": [
+        {
+          "type": "static"
+        }
+      ],
+      "grants": [
+        {
+          "type": "attribute",
+          "attribute": "armor",
+          "amount": 5
+        },
+        {
+          "type": "attribute",
+          "attribute": "armor_toughness",
+          "amount": 2
+        }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
 }

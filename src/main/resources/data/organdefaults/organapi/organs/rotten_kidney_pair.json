@@ -1,8 +1,38 @@
 {
   "item": "organdefaults:rotten_kidney_pair",
-  "valid_parts": ["organapi:abdomen"],
+  "valid_parts": [
+    "organapi:abdomen"
+  ],
   "size": 1,
-  "tooltips": ["A rotten kidney pair that struggles to process toxins."],
-  "tags": ["default", "kidney", "undead"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:kidney_filtration_efficiency","amount":-1},{"type":"organ_stat","id":"organeffects:immune_efficiency","amount":-1}],"events":[],"executions":[]}]
+  "tooltips": [
+    "§6肾§r §7无0§r §9回复续航§r §7低§r"
+  ],
+  "tags": [
+    "default",
+    "kidney",
+    "undead"
+  ],
+  "effects": [
+    {
+      "conditions": [
+        {
+          "type": "static"
+        }
+      ],
+      "grants": [
+        {
+          "type": "organ_stat",
+          "id": "organeffects:kidney_filtration_efficiency",
+          "amount": -1
+        },
+        {
+          "type": "organ_stat",
+          "id": "organeffects:immune_efficiency",
+          "amount": -1
+        }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
 }

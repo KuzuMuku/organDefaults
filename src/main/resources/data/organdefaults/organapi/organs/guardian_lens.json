@@ -1,8 +1,35 @@
 {
   "item": "organdefaults:guardian_lens",
-  "valid_parts": ["organapi:head", "organapi:chest"],
+  "valid_parts": [
+    "organapi:head",
+    "organapi:chest"
+  ],
   "size": 1,
-  "tooltips": ["A focused lens organ that charges and releases a guardian-style beam."],
-  "tags": ["default", "guardian", "laser", "projectile"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"skill","skill_name":"organeffects:guardian_beam","amount":1}],"events":[],"executions":[]}]
+  "tooltips": [
+    "§6眼§r §7无0§r §9远程压制§r §6中§r"
+  ],
+  "tags": [
+    "default",
+    "guardian",
+    "laser",
+    "projectile"
+  ],
+  "effects": [
+    {
+      "conditions": [
+        {
+          "type": "static"
+        }
+      ],
+      "grants": [
+        {
+          "type": "skill",
+          "skill_name": "organeffects:guardian_beam",
+          "amount": 1
+        }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
 }

@@ -1,8 +1,44 @@
 {
   "item": "organdefaults:iron_plating",
-  "valid_parts": ["organapi:chest"],
+  "valid_parts": [
+    "organapi:chest"
+  ],
   "size": 1,
-  "tooltips": ["Dense iron plating packed into the torso like an internal bulwark."],
-  "tags": ["default", "iron", "defense", "golem"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"attribute","attribute":"armor","amount":6},{"type":"attribute","attribute":"armor_toughness","amount":3},{"type":"attribute","attribute":"max_health","amount":4}],"events":[],"executions":[]}]
+  "tooltips": [
+    "§6胸§r §7无0§r §9生存增益§r §6中§r"
+  ],
+  "tags": [
+    "default",
+    "iron",
+    "defense",
+    "golem"
+  ],
+  "effects": [
+    {
+      "conditions": [
+        {
+          "type": "static"
+        }
+      ],
+      "grants": [
+        {
+          "type": "attribute",
+          "attribute": "armor",
+          "amount": 6
+        },
+        {
+          "type": "attribute",
+          "attribute": "armor_toughness",
+          "amount": 3
+        },
+        {
+          "type": "attribute",
+          "attribute": "max_health",
+          "amount": 4
+        }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
 }

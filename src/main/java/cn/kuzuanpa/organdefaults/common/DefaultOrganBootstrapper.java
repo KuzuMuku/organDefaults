@@ -21,11 +21,8 @@ import cn.kuzuanpa.organapi.common.body.BodyPlanResolver;
 import cn.kuzuanpa.organapi.common.capability.IOrganHolder;
 import cn.kuzuanpa.organeffects.api.OrganEffectsPointApi;
 import com.mojang.logging.LogUtils;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
+
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
@@ -55,7 +52,7 @@ public class DefaultOrganBootstrapper implements OrganHolderBootstrapper {
         }
         List<DefaultLoadoutDefinition> matchingLoadouts = DefaultLoadoutRegistry.getLoadouts().stream()
                 .filter(loadout -> loadout.matches(entity))
-                .sorted((left, right) -> Integer.compare(left.priority(), right.priority()))
+                .sorted(Comparator.comparingInt(DefaultLoadoutDefinition::priority))
                 .toList();
         if (matchingLoadouts.isEmpty()) {
             return;

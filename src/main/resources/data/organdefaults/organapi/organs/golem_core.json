@@ -1,8 +1,48 @@
 {
   "item": "organdefaults:golem_core",
-  "valid_parts": ["organapi:chest"],
+  "valid_parts": [
+    "organapi:chest"
+  ],
   "size": 1,
-  "tooltips": ["A dense core that drives constructs and heavy guardians."],
-  "tags": ["default", "core", "golem"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"attribute","attribute":"max_health","amount":10},{"type":"attribute","attribute":"attack_damage","amount":4},{"type":"attribute","attribute":"armor","amount":4},{"type":"attribute","attribute":"movement_speed","amount":1}],"events":[],"executions":[]}]
+  "tooltips": [
+    "§6核§r §7无0§r §9基础底盘§r §6中§r"
+  ],
+  "tags": [
+    "default",
+    "core",
+    "golem"
+  ],
+  "effects": [
+    {
+      "conditions": [
+        {
+          "type": "static"
+        }
+      ],
+      "grants": [
+        {
+          "type": "attribute",
+          "attribute": "max_health",
+          "amount": 10
+        },
+        {
+          "type": "attribute",
+          "attribute": "attack_damage",
+          "amount": 4
+        },
+        {
+          "type": "attribute",
+          "attribute": "armor",
+          "amount": 4
+        },
+        {
+          "type": "attribute",
+          "attribute": "movement_speed",
+          "amount": 1
+        }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
 }

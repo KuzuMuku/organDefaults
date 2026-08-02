@@ -1,8 +1,33 @@
 {
   "item": "organdefaults:strong_heart",
-  "valid_parts": ["organapi:chest"],
+  "valid_parts": [
+    "organapi:chest"
+  ],
   "size": 1,
-  "tooltips": ["A large heart built for tougher creatures."],
-  "tags": ["default", "heart", "strong"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:cardiac_output","amount":4}],"events":[],"executions":[]}]
+  "tooltips": [
+    "§6心§r §7无0§r §9基础底盘§r §6中§r"
+  ],
+  "tags": [
+    "default",
+    "heart",
+    "strong"
+  ],
+  "effects": [
+    {
+      "conditions": [
+        {
+          "type": "static"
+        }
+      ],
+      "grants": [
+        {
+          "type": "organ_stat",
+          "id": "organeffects:cardiac_output",
+          "amount": 4
+        }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
 }

@@ -1,8 +1,33 @@
 {
   "item": "organdefaults:rotten_lungs",
-  "valid_parts": ["organapi:chest"],
+  "valid_parts": [
+    "organapi:chest"
+  ],
   "size": 1,
-  "tooltips": ["Collapsed lungs that still move a little stale air."],
-  "tags": ["default", "lung", "undead"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:oxygen_efficiency","amount":1}],"events":[],"executions":[]}]
+  "tooltips": [
+    "§6肺§r §7无0§r §9生存增益§r §7低§r"
+  ],
+  "tags": [
+    "default",
+    "lung",
+    "undead"
+  ],
+  "effects": [
+    {
+      "conditions": [
+        {
+          "type": "static"
+        }
+      ],
+      "grants": [
+        {
+          "type": "organ_stat",
+          "id": "organeffects:oxygen_efficiency",
+          "amount": 1
+        }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
 }

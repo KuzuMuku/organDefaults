@@ -1,8 +1,33 @@
 {
   "item": "organdefaults:common_spine",
-  "valid_parts": ["organapi:chest"],
+  "valid_parts": [
+    "organapi:chest"
+  ],
   "size": 1,
-  "tooltips": ["A healthy spine that carries signals cleanly through the body."],
-  "tags": ["default", "spine", "common"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"organ_stat","id":"organeffects:neural_conduction","amount":2}],"events":[],"executions":[]}]
+  "tooltips": [
+    "§6脊§r §7无0§r §9近战增幅§r §6中§r"
+  ],
+  "tags": [
+    "default",
+    "spine",
+    "common"
+  ],
+  "effects": [
+    {
+      "conditions": [
+        {
+          "type": "static"
+        }
+      ],
+      "grants": [
+        {
+          "type": "organ_stat",
+          "id": "organeffects:neural_conduction",
+          "amount": 2
+        }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
 }

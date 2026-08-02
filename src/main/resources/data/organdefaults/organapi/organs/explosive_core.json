@@ -1,8 +1,43 @@
 {
   "item": "organdefaults:explosive_core",
-  "valid_parts": ["organapi:chest"],
+  "valid_parts": [
+    "organapi:chest"
+  ],
   "size": 1,
-  "tooltips": ["A volatile core suited to unstable explosive creatures."],
-  "tags": ["default", "core", "explosive"],
-  "effects": [{"conditions":[{"type":"static"}],"grants":[{"type":"attribute","attribute":"movement_speed","amount":1},{"type":"attribute","attribute":"attack_damage","amount":2},{"type":"attribute","attribute":"max_health","amount":2}],"events":[],"executions":[]}]
+  "tooltips": [
+    "§6核§r §7无0§r §9基础底盘§r §6中§r"
+  ],
+  "tags": [
+    "default",
+    "core",
+    "explosive"
+  ],
+  "effects": [
+    {
+      "conditions": [
+        {
+          "type": "static"
+        }
+      ],
+      "grants": [
+        {
+          "type": "attribute",
+          "attribute": "movement_speed",
+          "amount": 1
+        },
+        {
+          "type": "attribute",
+          "attribute": "attack_damage",
+          "amount": 2
+        },
+        {
+          "type": "attribute",
+          "attribute": "max_health",
+          "amount": 2
+        }
+      ],
+      "events": [],
+      "executions": []
+    }
+  ]
 }
