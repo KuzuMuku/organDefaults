@@ -13,7 +13,7 @@
     {"source":"organdefaults:balance/warden_family","point_key":"organ_stat:organeffects:neural_conduction","amount":-3},
     {"source":"organdefaults:balance/warden_family","point_key":"organ_stat:organeffects:immune_efficiency","amount":-2},
     {"source":"organdefaults:balance/warden_family","point_key":"organ_stat:organeffects:muscular_strength","amount":-12},
-    {"source":"organdefaults:balance/warden_family","point_key":"attribute:minecraft:armor","amount":-5},
-    {"source":"organdefaults:balance/warden_family","point_key":"attribute:minecraft:armor_toughness","amount":-2}
+    {"source":"organdefaults:balance/warden_family","point_key":"attribute:minecraft:generic.armor","amount":-5},
+    {"source":"organdefaults:balance/warden_family","point_key":"attribute:minecraft:generic.armor_toughness","amount":-2}
   ]
 }

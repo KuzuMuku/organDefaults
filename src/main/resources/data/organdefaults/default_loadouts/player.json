@@ -20,7 +20,7 @@
     {"source":"organdefaults:balance/player","point_key":"organ_stat:organeffects:muscular_strength","amount":-8},
     {"source":"organdefaults:balance/player","point_key":"organ_stat:organeffects:kidney_filtration_efficiency","amount":-2},
     {"source":"organdefaults:balance/player","point_key":"organ_stat:organeffects:liver_detox_efficiency","amount":-2},
-    {"source":"organdefaults:balance/player","point_key":"attribute:minecraft:armor","amount":-4},
-    {"source":"organdefaults:balance/player","point_key":"attribute:minecraft:armor_toughness","amount":-1}
+    {"source":"organdefaults:balance/player","point_key":"attribute:minecraft:generic.armor","amount":-4},
+    {"source":"organdefaults:balance/player","point_key":"attribute:minecraft:generic.armor_toughness","amount":-1}
   ]
 }

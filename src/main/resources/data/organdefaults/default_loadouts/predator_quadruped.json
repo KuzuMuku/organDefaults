@@ -16,7 +16,7 @@
     {"source":"organdefaults:balance/predator_quadruped","point_key":"organ_stat:organeffects:immune_efficiency","amount":-2},
     {"source":"organdefaults:balance/predator_quadruped","point_key":"organ_stat:organeffects:digestive_absorption","amount":-2},
     {"source":"organdefaults:balance/predator_quadruped","point_key":"organ_stat:organeffects:muscular_strength","amount":-9},
-    {"source":"organdefaults:balance/predator_quadruped","point_key":"attribute:minecraft:armor","amount":-6},
-    {"source":"organdefaults:balance/predator_quadruped","point_key":"attribute:minecraft:armor_toughness","amount":-2}
+    {"source":"organdefaults:balance/predator_quadruped","point_key":"attribute:minecraft:generic.armor","amount":-6},
+    {"source":"organdefaults:balance/predator_quadruped","point_key":"attribute:minecraft:generic.armor_toughness","amount":-2}
   ]
 }

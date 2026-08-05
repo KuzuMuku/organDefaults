@@ -59,7 +59,7 @@ data/organdefaults/default_loadouts/minecraft_zombie.json
     {
       "source": "organdefaults:balance/minecraft_zombie",
       "point_type": "attribute",
-      "point_id": "minecraft:max_health",
+      "point_id": "minecraft:generic.max_health",
       "amount": -4
     }
   ]
@@ -125,7 +125,7 @@ Each `point_adjustments` entry uses this format:
 {
   "source": "organdefaults:balance/minecraft_zombie",
   "point_type": "attribute",
-  "point_id": "minecraft:max_health",
+  "point_id": "minecraft:generic.max_health",
   "amount": -4
 }
 ```
@@ -135,7 +135,7 @@ Each `point_adjustments` entry uses this format:
 | `source` | string | no | Explicit OrganEffects source tag used for these points. |
 | `point_type` | string | conditionally | Point type prefix, such as `attribute` or `counter`. |
 | `point_id` | string | conditionally | Point id suffix, such as `minecraft:max_health`. |
-| `point_key` | string | conditionally | Full point key, such as `attribute:minecraft:max_health`. |
+| `point_key` | string | conditionally | Full point key, such as `attribute:minecraft:generic.max_health`. |
 | `amount` | long | yes | Signed point amount to apply. |
 
 Rules:

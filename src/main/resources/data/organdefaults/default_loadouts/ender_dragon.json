@@ -11,11 +11,11 @@
     }
   },
   "point_adjustments": [
-    {"source":"organdefaults:balance/ender_dragon","point_key":"attribute:minecraft:max_health","amount":-8},
-    {"source":"organdefaults:balance/ender_dragon","point_key":"attribute:minecraft:attack_damage","amount":-2},
-    {"source":"organdefaults:balance/ender_dragon","point_key":"attribute:minecraft:movement_speed","amount":-1},
+    {"source":"organdefaults:balance/ender_dragon","point_key":"attribute:minecraft:generic.max_health","amount":-8},
+    {"source":"organdefaults:balance/ender_dragon","point_key":"attribute:minecraft:generic.attack_damage","amount":-2},
+    {"source":"organdefaults:balance/ender_dragon","point_key":"attribute:minecraft:generic.movement_speed","amount":-1},
     {"source":"organdefaults:balance/ender_dragon","point_key":"organ_stat:organeffects:neural_conduction","amount":-2},
-    {"source":"organdefaults:balance/ender_dragon","point_key":"attribute:minecraft:armor","amount":-5},
-    {"source":"organdefaults:balance/ender_dragon","point_key":"attribute:minecraft:armor_toughness","amount":-2}
+    {"source":"organdefaults:balance/ender_dragon","point_key":"attribute:minecraft:generic.armor","amount":-5},
+    {"source":"organdefaults:balance/ender_dragon","point_key":"attribute:minecraft:generic.armor_toughness","amount":-2}
   ]
 }
