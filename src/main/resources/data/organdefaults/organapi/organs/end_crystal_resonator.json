@@ -28,7 +28,7 @@
         },
         {
           "type": "attribute",
-          "attribute": "max_health",
+          "attribute": "minecraft:generic.max_health",
           "amount": 4
         }
       ],

@@ -22,12 +22,12 @@
       "grants": [
         {
           "type": "attribute",
-          "attribute": "max_health",
+          "attribute": "minecraft:generic.max_health",
           "amount": 4
         },
         {
           "type": "attribute",
-          "attribute": "movement_speed",
+          "attribute": "minecraft:generic.movement_speed",
           "amount": 1
         },
         {

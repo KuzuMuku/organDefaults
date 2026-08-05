@@ -23,7 +23,7 @@
       "grants": [
         {
           "type": "attribute",
-          "attribute": "armor",
+          "attribute": "minecraft:generic.armor",
           "amount": 1
         }
       ],

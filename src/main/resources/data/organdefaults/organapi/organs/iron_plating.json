@@ -23,17 +23,17 @@
       "grants": [
         {
           "type": "attribute",
-          "attribute": "armor",
+          "attribute": "minecraft:generic.armor",
           "amount": 6
         },
         {
           "type": "attribute",
-          "attribute": "armor_toughness",
+          "attribute": "minecraft:generic.armor_toughness",
           "amount": 3
         },
         {
           "type": "attribute",
-          "attribute": "max_health",
+          "attribute": "minecraft:generic.max_health",
           "amount": 4
         }
       ],
