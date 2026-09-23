@@ -15,10 +15,12 @@
 
 package cn.kuzuanpa.organdefaults.common;
 
-import cn.kuzuanpa.organapi.api.body.ResolvedBodyPlan;
 import cn.kuzuanpa.organapi.api.extension.OrganHolderBootstrapper;
 import cn.kuzuanpa.organapi.common.body.BodyPlanResolver;
 import cn.kuzuanpa.organapi.common.capability.IOrganHolder;
+import cn.kuzuanpa.organapi.core.model.OrganId;
+import cn.kuzuanpa.organapi.core.model.ResolvedBodyPlan;
+import cn.kuzuanpa.organapi.platform.OrganIds;
 import cn.kuzuanpa.organeffects.api.OrganEffectsPointApi;
 import com.mojang.logging.LogUtils;
 
@@ -138,8 +140,8 @@ public class DefaultOrganBootstrapper implements OrganHolderBootstrapper {
 
     private static boolean hasAnyOrgan(LivingEntity entity, IOrganHolder holder) {
         ResolvedBodyPlan bodyPlan = BodyPlanResolver.resolve(entity);
-        for (ResourceLocation bodyPartId : bodyPlan.getOrderedBodyPartIds()) {
-            for (ItemStack stack : holder.getInstalledOrgans(bodyPartId)) {
+        for (OrganId bodyPartId : bodyPlan.getOrderedBodyPartIds()) {
+            for (ItemStack stack : holder.getInstalledOrgans(OrganIds.toResourceLocation(bodyPartId))) {
                 if (!stack.isEmpty()) {
                     return true;
                 }
