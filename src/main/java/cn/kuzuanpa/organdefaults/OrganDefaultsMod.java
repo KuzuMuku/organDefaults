@@ -16,6 +16,7 @@
 package cn.kuzuanpa.organdefaults;
 
 import cn.kuzuanpa.organapi.api.extension.OrganBootstrapApi;
+import cn.kuzuanpa.organapi.common.data.pack.OrganPackTemplateExtractor;
 import cn.kuzuanpa.organdefaults.common.DefaultLoadoutLoader;
 import cn.kuzuanpa.organdefaults.common.DefaultOrganBootstrapper;
 import cn.kuzuanpa.organdefaults.common.registry.OrganDefaultsItems;
@@ -31,6 +32,7 @@ public class OrganDefaultsMod {
 
     public OrganDefaultsMod(FMLJavaModLoadingContext context) {
         IEventBus modBus = context.getModEventBus();
+        OrganPackTemplateExtractor.extractPackIfAbsent(MOD_ID, "organdefaults_content");
         OrganDefaultsItems.ITEMS.register(modBus);
 
         OrganBootstrapApi.register(new DefaultOrganBootstrapper());
